@@ -517,7 +517,7 @@
       </div>
     </footer>
     <!-- Backdrop -->
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal-window">
         <button type="button" class="close-button">
           <svg class="x-icon" width="8" height="8">
@@ -530,7 +530,7 @@
         </p>
         <form class="modal-form">
           <div class="modal-field-container">
-            <label class="modal-label" for="">Name</label>
+            <label class="modal-label" for="user-name">Name</label>
             <div class="modal-field-wrapper">
               <input
                 class="modal-field"
@@ -563,13 +563,14 @@
             </div>
           </div>
 
-          <div class="modal-field-container">
-            <label for="user-comment  " class="modal-label">Comment </label>
+          <div class="modal-comment-field-container">
+            <label for="user-comment" class="modal-label">Comment </label>
             <textarea
-              class="modal-field"
+              class="modal-textarea-field"
               type="text"
               rows="4"
               name="user-comment"
+              placeholder="Text Input"
             ></textarea>
             <svg
               class="modal-field-icon"
