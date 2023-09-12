@@ -361,7 +361,9 @@ button {
   border: none;
   background-color: #404bbf;
   fill: #f4f4fd;
-  stroke: #404bbf;
+}
+.privacy-checkbox:hover {
+  background-color: #404bbf;
 }
 .modal-comment-field-container {
   margin-bottom: 16px;
