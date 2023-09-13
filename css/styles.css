@@ -698,11 +698,7 @@ button {
 }
 
 .modal-checkbox-container {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
   margin-bottom: 24px;
-  justify-content: center;
 }
 
 .privacy-checkbox {
