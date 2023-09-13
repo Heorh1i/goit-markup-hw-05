@@ -743,33 +743,10 @@ button {
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
-  .modal-send-button {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 16px 32px;
-    height: 56px;
-    width: 168px;
-    border-radius: 4px;
-    background: #4d5ae5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    border: none;
-    font-family: 'Roboto', sans-serif;
-    min-width: 169px;
-    color: var(--WHITE, #fff);
-    text-align: center;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+  font-family: 'Roboto', sans-serif;
   min-width: 169px;
-
   color: var(--WHITE, #fff);
   text-align: center;
-
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -778,6 +755,7 @@ button {
   letter-spacing: 0.64px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal-send-button:hover,
 .modal-send-button:focus {
   background-color: #404bbf;
